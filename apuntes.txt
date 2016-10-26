@@ -1,1 +1,49 @@
-clase09---------------
+--------clase09--------
+
+cookie--> "valor que se almacena en un dato el valor"
+		->se le puede dar tiempo de duracion
+		->se puede escribir y borrar(escribirla en tiempo pasado ejem: -1)
+		->Sirve para guardar datos pequeños en la maquina del usuario
+http://www.w3schools.com/php/php_cookies.asp
+
+$cookie--> es un array
+var_dump ($cookie) --> para saber la cantidad de cookies y lo que contiene
+
+---hacer--
+un template -- el boton tiene que disparar un ajax donde en el nexo se guarde la cookie
+
+<?php echo "muestro la cookie" ?>
+
+40+ Beautiful CSS Sing up   <---- para desdcargar el template
+
+
+las cookies se pueden borrer y cualquiera la puede ver 
+la cookie se pone del lado del CLIENTE
+pero del lado del SERVIDOR (guardar el login del usuario y mantenerla) -> este tipo de variable son variables de session
+variable de session
+|-> va pasando por todas las paginas donde tengo el php
+|-> no se puede iniciar dos veces la session
+|-> $_SESSION -> un array de lo que queramos, a partir de esto se puede inspeccionar la session
+|-> son variables globales, que pueden guardar elemntos simples o complejos
+|-> no se necesita instanciar o poner algo, poniendo directamente $_SESSION y lo que quiero hacer
+|-> lo vamos a usar para guardar usuario, mail y perfil
+|->siempre se necesita un servidor
+
+http://www.w3schools.com/php/php_sessions.asp
+
+
+------------------------------------
+fijarse en el de estacionamiento(octaviovillegas) para modificarlo HACER LO DEL TP
+que se cuelgue en la web y que ande una sola vez
+->sacar una cuenta en algun servidor  (tuars, hosting, 00web host) , crear una base de datos, Crear la conexion, 
+hay que evitar que pinche, si pincha no sirve
+
+como subir con ftp??
+
+hacer el recu, la logica de borrar en json
+
+ejemploo tuars - panel de control- manejo de archivos
+
+
+
+
